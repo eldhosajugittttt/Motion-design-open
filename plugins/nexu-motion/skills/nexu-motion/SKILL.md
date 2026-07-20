@@ -13,6 +13,7 @@ Create each video as a small, responsive-looking web composition that a local re
 2. Plan 3–5 beats: hook, context/product, proof or transformation, and final CTA. Keep one dominant message per beat.
    When text is a primary visual element, use the sibling `motion-typography` skill and show one reading target at a time.
 3. Copy `assets/starter/` into a new project folder. Replace its content and styling with a complete HTML/CSS motion design.
+   When the brief needs original raster artwork, style-derived cutouts, collage layers, or generated textures, use the sibling `imagegen-to-motion` skill.
 4. Implement `window.renderFrame(frame, fps)` in `motion.js`. Derive all visual state from the supplied frame. Do not use `requestAnimationFrame`, timers, CSS autoplay, random values, or network-loaded runtime dependencies.
 5. Use transform and opacity for primary motion. Prefer coordinated sequences, overshoot, masks, stagger, type scale, depth, and strong composition over many unrelated effects.
 6. Read [references/timeline-contract.md](references/timeline-contract.md) when writing or debugging the timeline.

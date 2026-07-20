@@ -1,7 +1,7 @@
 {
   "name": "nexu-motion",
-  "version": "0.3.1",
-  "description": "Local, key-free audio editing, readable typography, caption timing, and motion graphics workflows for Codex.",
+  "version": "0.4.0",
+  "description": "Local, key-free image generation workflows, audio editing, readable typography, caption timing, and motion graphics for Codex.",
   "author": {
     "name": "Nexu"
   },
@@ -9,10 +9,10 @@
   "interface": {
     "displayName": "Nexu Motion",
     "shortDescription": "Edit audio and render readable motion graphics locally.",
-    "longDescription": "Nexu Motion lets Codex clean and edit voiceovers, remove retakes and dead air, rebuild word-timed captions, create minimal editorial typography, preview frames, and render MP4 videos locally. It needs no separate AI API key.",
+    "longDescription": "Nexu Motion lets Codex generate original visual layers, clean and edit voiceovers, rebuild word-timed captions, create minimal editorial typography, preview frames, and render MP4 videos locally. It needs no separate external AI API key.",
     "developerName": "Nexu",
     "category": "Creative",
-    "capabilities": ["Audio editing", "Timed captions", "Editorial typography", "Motion design", "Video rendering", "MCP tools"],
+    "capabilities": ["Generated visual layers", "Audio editing", "Timed captions", "Editorial typography", "Motion design", "Video rendering", "MCP tools"],
     "defaultPrompt": "Clean this audio, remove unwanted sections, rebuild the captions, and create a synchronized motion graphic."
   },
   "mcpServers": "./.mcp.json"

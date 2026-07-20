@@ -32,6 +32,8 @@ The companion `skills/audio-to-motion/` workflow handles rough recordings before
 
 The `skills/motion-typography/` workflow keeps short videos readable. It treats a word, line, or short sentence as one possible reading target, removes decorative filler copy, provides editorial font-pairing guidance, and includes both sequential-beat and deterministic typewriter starters.
 
+The `skills/imagegen-to-motion/` workflow uses Codex's built-in image generation to create original raster layers, moves the selected assets into the project, and animates them locally. It includes a tested grunge-poster recipe with chroma cutouts, halftone, paper texture, typewriter copy, and marker highlights.
+
 Ask Codex to use `$nexu-motion`, describe the video, and provide any brand or product assets. Codex creates the page, previews key frames, and exports the MP4.
 
 For a text-led piece, ask Codex to use `$motion-typography` and provide only the essential phrase. A five-second composition defaults to 2–6 total words shown sequentially.

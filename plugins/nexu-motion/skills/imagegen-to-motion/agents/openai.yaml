@@ -1,0 +1,4 @@
+interface:
+  display_name: "Imagegen to Motion"
+  short_description: "Animate generated artwork into videos"
+  default_prompt: "Use $imagegen-to-motion to generate original visual layers and animate them into a polished local video."

@@ -1,0 +1,187 @@
+:root {
+  --paper: #f4f1e9;
+  --ink: #272421;
+  --amber: #f3ad38;
+}
+
+* { box-sizing: border-box; }
+html, body { width: 100%; height: 100%; margin: 0; overflow: hidden; background: var(--paper); }
+
+.stage {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  isolation: isolate;
+  color: var(--ink);
+  background: var(--paper);
+  font-family: Baskerville, "Baskerville Old Face", Georgia, serif;
+}
+
+.paper-texture {
+  position: absolute;
+  inset: -3%;
+  z-index: -5;
+  width: 106%;
+  height: 106%;
+  object-fit: cover;
+  filter: contrast(1.06) brightness(1.015);
+  will-change: transform;
+}
+
+.toner {
+  position: absolute;
+  inset: 0;
+  z-index: 30;
+  pointer-events: none;
+  opacity: .08;
+  mix-blend-mode: multiply;
+  background-image:
+    repeating-radial-gradient(circle at 12% 30%, rgba(20,18,16,.58) 0 .5px, transparent .7px 4px),
+    repeating-linear-gradient(3deg, transparent 0 10px, rgba(31,27,23,.13) 11px 12px);
+}
+
+.halftone {
+  position: absolute;
+  z-index: -1;
+  width: 260px;
+  height: 190px;
+  opacity: 0;
+  background-image: radial-gradient(circle, rgba(35,32,29,.34) 0 4px, transparent 4.5px);
+  background-size: 18px 18px;
+  will-change: opacity, transform;
+}
+.halftone-left { left: 12%; top: 39%; transform: rotate(-5deg); }
+.halftone-right { right: 10%; bottom: 18%; transform: rotate(7deg); }
+
+.hero {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  will-change: opacity, transform, clip-path;
+}
+
+.hero h1 {
+  position: absolute;
+  z-index: 8;
+  left: 50%;
+  top: 7.5%;
+  margin: 0;
+  transform: translateX(-50%);
+  white-space: nowrap;
+  font-size: 56px;
+  line-height: .95;
+  letter-spacing: -.035em;
+  font-weight: 700;
+}
+
+.title-mark {
+  position: absolute;
+  z-index: 7;
+  left: 50%;
+  top: 16.3%;
+  width: 318px;
+  height: 11px;
+  transform: translateX(-50%) rotate(-1.2deg) scaleX(0);
+  transform-origin: 0 50%;
+  background: var(--amber);
+  clip-path: polygon(0 24%, 100% 0, 98% 78%, 3% 100%);
+}
+
+.poster {
+  position: absolute;
+  z-index: 5;
+  left: 50%;
+  top: 57%;
+  width: 590px;
+  height: 590px;
+  object-fit: contain;
+  transform: translate(-50%, -50%);
+  will-change: opacity, transform, filter;
+}
+.poster-main { filter: contrast(1.08); }
+.poster-echo {
+  z-index: 4;
+  opacity: .42;
+  transform: translate(-48.4%, -48.8%);
+  filter: brightness(0) saturate(100%) invert(75%) sepia(61%) saturate(1138%) hue-rotate(337deg) brightness(102%);
+}
+
+.orange-scrap {
+  position: absolute;
+  z-index: 2;
+  left: 31%;
+  top: 35%;
+  width: 490px;
+  height: 275px;
+  opacity: .52;
+  transform: rotate(-3deg);
+  background: var(--amber);
+  clip-path: polygon(2% 13%, 88% 0, 100% 78%, 14% 100%, 0 67%);
+}
+
+.message {
+  position: absolute;
+  z-index: 12;
+  left: 50%;
+  top: 51%;
+  width: 1120px;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+}
+
+.type-line {
+  position: relative;
+  display: grid;
+  width: max-content;
+  max-width: 100%;
+  margin: 0 auto 22px;
+  font-size: 64px;
+  line-height: 1.03;
+  letter-spacing: -.032em;
+  font-weight: 700;
+  white-space: nowrap;
+}
+.reserve,
+.marker,
+.typed-wrap { grid-area: 1 / 1; }
+.reserve { visibility: hidden; }
+.typed-wrap { z-index: 3; display: flex; align-items: baseline; }
+.typed { display: block; }
+.caret { width: 3px; height: .78em; margin-left: .08em; background: var(--ink); }
+.marker {
+  z-index: 1;
+  align-self: center;
+  width: 100%;
+  height: .54em;
+  transform: translateY(.12em) rotate(-.8deg) scaleX(0);
+  transform-origin: 0 50%;
+  background: rgba(243,173,56,.78);
+  clip-path: polygon(0 12%, 99% 0, 100% 78%, 2% 100%);
+}
+.line-two .marker {
+  width: 69%;
+  justify-self: end;
+  transform-origin: 0 50%;
+  transform: translateY(.12em) rotate(.7deg) scaleX(0);
+}
+
+.rip {
+  position: absolute;
+  z-index: 21;
+  inset: -15%;
+  opacity: 0;
+  transform: translateX(-110%) rotate(-4deg);
+  will-change: opacity, transform;
+}
+.rip-amber { background: var(--amber); clip-path: polygon(0 12%, 68% 0, 53% 100%, 0 88%); }
+.rip-ink { z-index: 22; background: var(--ink); clip-path: polygon(0 3%, 44% 0, 28% 100%, 0 96%); }
+
+.flash {
+  position: absolute;
+  z-index: 40;
+  inset: 0;
+  background: #fffdf8;
+  opacity: 0;
+  pointer-events: none;
+}

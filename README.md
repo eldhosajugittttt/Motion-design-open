@@ -11,6 +11,7 @@ Motion Design Open packages **Nexu Motion** as an installable Codex plugin. Code
 ## What it does
 
 - Creates animated ads, reels, explainers, title sequences and kinetic typography.
+- Generates original image layers, textures and posterized cutouts with Codex imagegen, then animates them locally.
 - Keeps typography minimal with one clear reading target at a time.
 - Transcribes voiceovers locally with word timestamps.
 - Detects silence and flags possible coughs, breaths or handling noise for review.
@@ -75,6 +76,14 @@ For a sentence-led version, ask for a restrained typewriter reveal and a clear f
 
 ![Motion typography sample](docs/motion-typography-poster.png)
 
+### Imagegen to grunge motion
+
+> Use Imagegen to Motion to study this reference video, generate an original posterized cutout and paper texture, and animate them with halftone, typewriter copy and marker highlights. Do not reuse the reference footage or audio.
+
+[Watch the imagegen grunge sample](docs/imagegen-grunge-poster-motion.mp4)
+
+![Imagegen grunge poster sample](docs/imagegen-grunge-poster.png)
+
 ## How the audio workflow stays synchronized
 
 ```text
@@ -95,6 +104,7 @@ The motion stage never reuses the original timestamps after cuts. `caption-data.
 - `nexu-motion` — prompt-to-motion web compositions and deterministic video rendering.
 - `audio-to-motion` — audio analysis, local transcription, editorial cuts and caption remapping before animation.
 - `motion-typography` — minimal copy, editorial font pairing, sequential beats and deterministic typewriter reveals.
+- `imagegen-to-motion` — generated raster layers, chroma cutouts, editable collage motion and grunge-poster workflows.
 
 ## Privacy
 
@@ -110,6 +120,7 @@ plugins/nexu-motion/               Installable plugin
   skills/nexu-motion/              Motion graphics workflow and recorder
   skills/audio-to-motion/          Audio editing and caption workflow
   skills/motion-typography/        Minimal editorial kinetic typography
+  skills/imagegen-to-motion/       Generated artwork to editable motion workflow
   mcp/                             Structured scene tools and renderer
 docs/                              Poster and demo
 ```

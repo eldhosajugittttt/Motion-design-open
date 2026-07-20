@@ -1,0 +1,16 @@
+{
+  "mode": "built-in imagegen",
+  "reference_role": "The extracted video frames were style references only. Their footage, subject, text, layout and audio are not reused.",
+  "assets": [
+    {
+      "file": "assets/cassette-cutout-900.png",
+      "use_case": "stylized-concept",
+      "prompt": "Create an original vintage portable cassette recorder with large over-ear studio headphones draped around it as an isolated motion-graphics hero. Use high-contrast black-and-white photocopy, posterized screen print, coarse halftone dots, imperfect ink registration, torn-paper collage edges and a warm amber/orange offset outline. Center the complete object with generous padding on a perfectly flat solid green chroma-key background. Use only black, warm off-white, grayscale and amber in the subject. No cast shadow, contact shadow, logos, brand marks, readable labels, text, watermark, room, temple or copied composition."
+    },
+    {
+      "file": "assets/paper-texture.jpg",
+      "use_case": "stylized-concept",
+      "prompt": "Create an original full-frame 16:9 warm ivory scanned-paper texture for motion graphics. Include faint fibers, dusty toner specks, very soft creases, sparse scratches and slight edge wear with a visually quiet center. Use warm ivory, bone white and pale gray only. No objects, people, architecture, symbols, text, colored marks, orange, green or watermark."
+    }
+  ]
+}

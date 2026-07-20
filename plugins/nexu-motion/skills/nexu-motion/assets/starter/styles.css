@@ -1,0 +1,71 @@
+:root {
+  color-scheme: dark;
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background: #08090c;
+  color: #f7f8fb;
+}
+
+* { box-sizing: border-box; }
+html, body { width: 100%; height: 100%; margin: 0; overflow: hidden; }
+body { background: #08090c; }
+
+.stage {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  isolation: isolate;
+  background:
+    radial-gradient(circle at 78% 18%, rgba(125, 255, 92, .16), transparent 30%),
+    linear-gradient(145deg, #10131a 0%, #07080b 58%, #050506 100%);
+}
+
+.stage::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 10;
+  pointer-events: none;
+  opacity: .18;
+  background-image: linear-gradient(rgba(255,255,255,.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,.04) 1px, transparent 1px);
+  background-size: 72px 72px;
+}
+
+.ambient {
+  position: absolute;
+  border-radius: 999px;
+  filter: blur(40px);
+  will-change: transform, opacity;
+}
+
+.ambient-a { width: 46vw; height: 46vw; right: -12vw; top: 4vh; background: #7dff5c; opacity: .18; }
+.ambient-b { width: 64vw; height: 64vw; left: -28vw; bottom: -16vh; background: #6e45ff; opacity: .22; }
+
+.scene {
+  position: absolute;
+  inset: 7%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  will-change: transform, opacity, filter;
+}
+
+.eyebrow {
+  margin: 0 0 3vh;
+  color: #7dff5c;
+  font-size: clamp(18px, 2.2vw, 40px);
+  font-weight: 800;
+  letter-spacing: .24em;
+}
+
+h1, h2, p { margin: 0; }
+h1, h2 { letter-spacing: -.065em; line-height: .86; }
+h1 { font-size: clamp(84px, 13vw, 230px); text-transform: uppercase; }
+h1 span { display: block; will-change: transform, opacity; }
+.rule { width: 100%; height: 8px; margin-top: 5vh; transform-origin: left center; background: #7dff5c; }
+
+.scene-payoff { align-items: flex-start; opacity: 0; }
+.scene-payoff h2 { max-width: 10ch; font-size: clamp(94px, 14vw, 248px); }
+.scene-payoff p { max-width: 24ch; margin-top: 4vh; color: #b9bdc8; font-size: clamp(30px, 3.2vw, 60px); line-height: 1.2; }
+.badge { margin-bottom: 4vh; padding: .7em 1em; border: 2px solid rgba(255,255,255,.26); border-radius: 999px; color: #7dff5c; font-weight: 800; letter-spacing: .12em; }

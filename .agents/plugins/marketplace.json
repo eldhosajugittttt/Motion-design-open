@@ -1,0 +1,20 @@
+{
+  "name": "motion-design-open",
+  "interface": {
+    "displayName": "Motion Design Open"
+  },
+  "plugins": [
+    {
+      "name": "nexu-motion",
+      "source": {
+        "source": "local",
+        "path": "./plugins/nexu-motion"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Creative"
+    }
+  ]
+}

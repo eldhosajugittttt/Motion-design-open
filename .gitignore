@@ -1,0 +1,14 @@
+.DS_Store
+node_modules/
+__pycache__/
+*.pyc
+.venv/
+work/
+outputs/
+*.wav
+*.mp3
+*.mov
+*.mkv
+.nexu-frames-*/
+.nexu-chrome-*/
+plugins/nexu-motion/work/

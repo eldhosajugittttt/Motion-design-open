@@ -1,0 +1,4 @@
+interface:
+  display_name: "Nexu Motion"
+  short_description: "Turn prompts into polished motion videos"
+  default_prompt: "Use $nexu-motion to create a polished animated video from my brief."

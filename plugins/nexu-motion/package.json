@@ -1,0 +1,15 @@
+{
+  "name": "nexu-motion",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "description": "Local MCP motion graphics engine for Codex",
+  "scripts": {
+    "mcp": "node ./mcp/server.mjs",
+    "demo": "node ./scripts/render-demo.mjs",
+    "test": "node --test ./mcp/*.test.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

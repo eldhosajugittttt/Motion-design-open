@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "nexu-motion": {
+      "command": "node",
+      "args": ["./mcp/server.mjs"],
+      "cwd": "."
+    }
+  }
+}

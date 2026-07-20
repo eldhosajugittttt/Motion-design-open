@@ -1,0 +1,4 @@
+interface:
+  display_name: "Audio to Motion"
+  short_description: "Clean audio and create timed motion captions"
+  default_prompt: "Use $audio-to-motion to clean this recording and make a synchronized captioned motion video."

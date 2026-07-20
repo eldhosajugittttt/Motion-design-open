@@ -1,6 +1,6 @@
 {
   "name": "nexu-motion",
-  "version": "0.4.1",
+  "version": "0.4.2",
   "description": "Local, key-free image generation workflows, audio editing, readable typography, caption timing, and motion graphics for Codex.",
   "author": {
     "name": "Nexu"

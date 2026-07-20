@@ -1,6 +1,6 @@
 ---
 name: imagegen-to-motion
-description: Generate original raster artwork with the built-in imagegen skill and animate it into polished local videos with Nexu Motion. Use for image-led ads, grunge poster animation, collage motion, posterized or halftone styles, generated product or character layers, style-reference videos, image-to-video experiments, and workflows that need AI-created visual assets without a separate external API key.
+description: Generate original raster artwork with the built-in imagegen skill and animate it into polished local videos with Nexu Motion. Use for image-led ads, grunge poster animation, collage motion, posterized or halftone styles, paper-crush and fold transitions, generated product or character layers, style-reference videos, image-to-video experiments, and workflows that need AI-created visual assets without a separate external API key.
 ---
 
 # Imagegen to Motion

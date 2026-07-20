@@ -82,7 +82,7 @@ For a sentence-led version, ask for a restrained typewriter reveal and a clear f
 
 ### Imagegen to grunge motion
 
-> Use Imagegen to Motion to study this reference video, generate an original posterized cutout and paper texture, and animate them with halftone, typewriter copy and marker highlights. Do not reuse the reference footage or audio.
+> Use Imagegen to Motion to study this reference video, generate an original posterized cutout and paper texture, and animate them with a paper-crush intro, halftone, typewriter copy and marker highlights. Do not reuse the reference footage or audio.
 
 [Watch the imagegen grunge sample](docs/imagegen-grunge-poster-motion.mp4)
 

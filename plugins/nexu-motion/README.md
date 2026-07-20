@@ -4,6 +4,10 @@ Nexu Motion is a reusable Codex audio-editing and motion-graphics toolkit. Codex
 
 It does **not** call an external AI service and does not require a separate AI API key.
 
+## Full prompt control
+
+The user can specify the subject, message, exact text, visual style, generated imagery, supplied assets, duration, dimensions, frame rate, colors, typography, pacing, transitions, captions, audio, and anything to avoid. Codex creates an editable project, previews key frames, renders locally, and can revise individual choices from follow-up prompts without rebuilding the idea from scratch.
+
 ## How it works
 
 1. A user describes an ad, title sequence, social post, explainer, or animated graphic to Codex.

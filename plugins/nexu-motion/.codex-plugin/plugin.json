@@ -1,6 +1,6 @@
 {
   "name": "nexu-motion",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "description": "Local, key-free image generation workflows, audio editing, readable typography, caption timing, and motion graphics for Codex.",
   "author": {
     "name": "Nexu"
@@ -13,7 +13,7 @@
     "developerName": "Nexu",
     "category": "Creative",
     "capabilities": ["Generated visual layers", "Audio editing", "Timed captions", "Editorial typography", "Motion design", "Video rendering", "MCP tools"],
-    "defaultPrompt": "Clean this audio, remove unwanted sections, rebuild the captions, and create a synchronized motion graphic."
+    "defaultPrompt": "Create a polished editable video from my prompt. Follow my requested style, text, timing, format, assets, audio, and constraints; generate original visual layers when useful and render the final MP4 locally."
   },
   "mcpServers": "./.mcp.json"
 }

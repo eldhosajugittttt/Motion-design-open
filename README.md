@@ -8,6 +8,10 @@ Motion Design Open packages **Nexu Motion** as an installable Codex plugin. Code
 
 [Watch the short demo](docs/nexu-motion-demo.mp4)
 
+## Full prompt control
+
+Users control the subject, message, exact text, visual style, generated imagery, uploaded assets, duration, output format, colors, typography, pacing, transitions, captions, audio, and anything to avoid. Every result remains an editable HTML/CSS/JavaScript project, so follow-up prompts can revise one choice without locking the user into a flattened AI video.
+
 ## What it does
 
 - Creates animated ads, reels, explainers, title sequences and kinetic typography.

@@ -69,6 +69,8 @@ Whisper model files are downloaded on first use and run locally. No transcriptio
 
 > Use Motion Typography to create a five-second warm-paper video for “Less text. More meaning.” Show one word at a time with an editorial serif and restrained italic pairing.
 
+For a sentence-led version, ask for a restrained typewriter reveal and a clear final hold. A reading target may be a word, line or short sentence.
+
 [Watch the five-second typography sample](docs/motion-typography-sample.mp4)
 
 ![Motion typography sample](docs/motion-typography-poster.png)
@@ -92,7 +94,7 @@ The motion stage never reuses the original timestamps after cuts. `caption-data.
 
 - `nexu-motion` — prompt-to-motion web compositions and deterministic video rendering.
 - `audio-to-motion` — audio analysis, local transcription, editorial cuts and caption remapping before animation.
-- `motion-typography` — minimal copy, editorial font pairing and one-reading-target-at-a-time kinetic type.
+- `motion-typography` — minimal copy, editorial font pairing, sequential beats and deterministic typewriter reveals.
 
 ## Privacy
 

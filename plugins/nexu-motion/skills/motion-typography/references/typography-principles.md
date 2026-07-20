@@ -4,11 +4,11 @@
 
 | Duration | Recommended copy | Reading targets |
 |---|---:|---:|
-| Up to 5 seconds | 2–6 words | 3–4 sequential beats |
+| Up to 5 seconds | 2–10 words | 1–4 sequential targets |
 | 6–10 seconds | 6–14 words | 3–6 sequential beats |
 | 11–20 seconds | 14–30 words | 5–9 sequential beats |
 
-A reading target is the text the viewer should read now. A phrase can be one target when it forms a single visual unit. Labels, footers, counters, logos, and captions all consume the same attention budget.
+A reading target is the text the viewer should read now. One target may be a word, line, or short sentence. A typewriter reveal progressively exposes one target; it does not require turning every word into a separate scene. Labels, footers, counters, logos, and captions all consume the same attention budget.
 
 ## Pairing recipes
 
@@ -30,6 +30,7 @@ Use real local font styles. Fall back to Georgia for serif and Helvetica Neue fo
 ## Motion grammar
 
 - Reveal: mask or clip the full word as one unit.
+- Typewriter: reveal one short sentence in place and reserve its completed dimensions from the first frame.
 - Emphasis: settle scale by no more than 12% or tracking by no more than 0.08 em.
 - Transition: replace the old target; do not accumulate copy.
 - Italic motion: favor a gentle horizontal glide that follows the letterform direction.

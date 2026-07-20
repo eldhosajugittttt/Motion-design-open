@@ -30,7 +30,7 @@ The companion `skills/audio-to-motion/` workflow handles rough recordings before
 - automatic caption timestamp remapping after every cut;
 - verified transcript corrections for currencies, names, numbers, and locations.
 
-The `skills/motion-typography/` workflow keeps short videos readable. It enforces one reading target at a time, removes decorative filler copy, provides editorial font-pairing guidance, and includes a warm-paper kinetic type starter.
+The `skills/motion-typography/` workflow keeps short videos readable. It treats a word, line, or short sentence as one possible reading target, removes decorative filler copy, provides editorial font-pairing guidance, and includes both sequential-beat and deterministic typewriter starters.
 
 Ask Codex to use `$nexu-motion`, describe the video, and provide any brand or product assets. Codex creates the page, previews key frames, and exports the MP4.
 

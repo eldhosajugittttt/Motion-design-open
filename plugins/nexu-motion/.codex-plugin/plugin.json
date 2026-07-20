@@ -1,6 +1,6 @@
 {
   "name": "nexu-motion",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Local, key-free audio editing, readable typography, caption timing, and motion graphics workflows for Codex.",
   "author": {
     "name": "Nexu"

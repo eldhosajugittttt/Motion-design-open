@@ -11,6 +11,7 @@ Motion Design Open packages **Nexu Motion** as an installable Codex plugin. Code
 ## What it does
 
 - Creates animated ads, reels, explainers, title sequences and kinetic typography.
+- Keeps typography minimal with one clear reading target at a time.
 - Transcribes voiceovers locally with word timestamps.
 - Detects silence and flags possible coughs, breaths or handling noise for review.
 - Removes dead air, false starts, repeated takes and verified unwanted audio.
@@ -64,6 +65,14 @@ Whisper model files are downloaded on first use and run locally. No transcriptio
 
 > Turn this interview clip into a 30-second square video. Keep the strongest answer, remove filler and pauses, add word-highlighted captions and export an editable project plus MP4.
 
+### Minimal editorial typography
+
+> Use Motion Typography to create a five-second warm-paper video for “Less text. More meaning.” Show one word at a time with an editorial serif and restrained italic pairing.
+
+[Watch the five-second typography sample](docs/motion-typography-sample.mp4)
+
+![Motion typography sample](docs/motion-typography-poster.png)
+
 ## How the audio workflow stays synchronized
 
 ```text
@@ -83,6 +92,7 @@ The motion stage never reuses the original timestamps after cuts. `caption-data.
 
 - `nexu-motion` — prompt-to-motion web compositions and deterministic video rendering.
 - `audio-to-motion` — audio analysis, local transcription, editorial cuts and caption remapping before animation.
+- `motion-typography` — minimal copy, editorial font pairing and one-reading-target-at-a-time kinetic type.
 
 ## Privacy
 
@@ -97,6 +107,7 @@ plugins/nexu-motion/               Installable plugin
   .mcp.json                        Local MCP server configuration
   skills/nexu-motion/              Motion graphics workflow and recorder
   skills/audio-to-motion/          Audio editing and caption workflow
+  skills/motion-typography/        Minimal editorial kinetic typography
   mcp/                             Structured scene tools and renderer
 docs/                              Poster and demo
 ```

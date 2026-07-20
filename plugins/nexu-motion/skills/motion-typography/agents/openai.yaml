@@ -1,0 +1,4 @@
+interface:
+  display_name: "Motion Typography"
+  short_description: "Create readable, editorial kinetic type"
+  default_prompt: "Use $motion-typography to create a minimal, highly readable kinetic typography video."
